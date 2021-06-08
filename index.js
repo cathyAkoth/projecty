@@ -46,11 +46,11 @@ console.log(req.body)
   })
   
 app.get('/about',(req, res)=>{ // Get method taking 2 arguments 'req,res'
-res.send('about page. nice')
+res.send("'about page. nice'")
 })
 // path parameters.
 app.get('/user/:name',(req,res)=>{
-res.send('hello'+req.params.name)
+res.send("'hello'"+req.params.name)
 })
 
 //Querry parameters.
