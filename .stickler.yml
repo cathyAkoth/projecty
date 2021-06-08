@@ -1,10 +1,14 @@
 linters:
+
    
-    eslint:
-        config: './eslint.config'
-    csslint:
-        config: './csslint.config'
+   
+ 
+   eslint:
+       config: './eslint.config'
+   csslint:
+       config: './csslint.config'
 files:
-  ignore:
-    - 'bower_components/*'
-    - 'node_modules/*'
+ ignore:
+   - 'bower_components/*'
+   - 'node_modules/*'
+
