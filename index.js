@@ -55,7 +55,7 @@ res.send('hello'+req.params.name)
 
 //Querry parameters.
 app.get('/users', (req, res)=> {
-res.send('This is class' + req.query.class + 'cohort' +  req.query.cohort  )})
+res.send('This is class' + req.query.class + "cohort" +  req.query.cohort  )})
   
 // Server
 app.listen(3000, () => console.log('listening on port 3000'));// Should always be the last statement.// The listen method creates the server
